@@ -22,8 +22,24 @@
         android:layout_height="30dp"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:text="Conecte-se:"
+        android:text="Cadastro"
         android:textColor="#000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/nome"
+        android:hint="Nome"
+        android:textColorHint="#000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/nome"
+        android:hint="Sobrenome"
+        android:textColorHint="#000"
         android:textSize="20dp" />
 
     <EditText
@@ -43,41 +59,16 @@
         android:textColorHint="#000"
         android:textSize="20dp" />
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
-        android:text="logar"
-        android:id="@+id/Logar"/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Ou"
-        android:textColor="#000000"
-        android:textSize="20dp" />
-
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF5722"
-        android:text="Entrar com Instagram"
-        android:textColor="#000" />
-
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
-        android:gravity="center"
-        android:inputType="text"
-        android:padding="5dp"
-        android:text="Precisa de uma conta?"
-        android:textColor="#000000" />
+        android:layout_height="50dp"
+        android:drawableRight="@drawable/cadiado"
+        android:hint="Confirme a Senha"
+        android:textColorHint="#000"
+        android:textSize="20dp" />
 
     <Button
-        android:id="@+id/Cadastro"
+        android:id="@+id/Cadastrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#2196F3"
